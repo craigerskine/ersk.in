@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" hidden>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>ersk.in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=https://craig.erskine.in/" />
+  </head>
+  <body>
+
+    <div class="min-h-screen flex items-center justify-center">
+      <h1 class="flex items-center gap-2"><iconify-icon icon="mdi:rotate-360" width="1em" height="1em" inline="false" class="text-2xl opacity-50"></iconify-icon> Redirecting to <a href="https://craig.ersk.in/">https://craig.ersk.in/</a></h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.js,npm/twind/observe/observe.umd.js,npm/twind/colors/colors.umd.js,npm/@twind/typography/typography.umd.js"></script>
+    <script src="https://unpkg.com/iconify-icon/dist/iconify-icon.min.js"></script>
+    <script>
+      twind.setup({
+        mode: 'silent',
+        darkMode: 'class',
+        theme: {
+        },
+      })
+      twind.tw(() => ({
+        '@global': {
+          //':root [v-cloak]': { '@apply': 'hidden', },
+        }
+      }))
+      twindObserve.observe(document.documentElement);
+      document.documentElement.removeAttribute('hidden');
+    </script>
+    
+  </body>
+</html>
